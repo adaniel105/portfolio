@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
-  theme: {
-  	extend: {
+		theme: {
+			extend: {
+			fontFamily: {
+				robotomono : ["Roboto Mono", "sans-serif"],
+			},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
