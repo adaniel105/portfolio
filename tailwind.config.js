@@ -6,7 +6,8 @@ module.exports = {
 		theme: {
 			extend: {
 			fontFamily: {
-				robotomono : ["Roboto Mono", "sans-serif"],
+				'sans' : ['Inter', 'sans-serif'],
+				'catamaran' : ['Catamaran'],
 			},
   		borderRadius: {
   			lg: 'var(--radius)',

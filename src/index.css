@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +9,7 @@ body{
   display: flex;
   flex-direction: column;
   place-items: center;
-  background-color: black;
+  background-color: hsl(0, 0%, 5%);
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -82,6 +82,6 @@ body{
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-robotomono;
+    @apply bg-background text-foreground font-catamaran;
   }
 }
