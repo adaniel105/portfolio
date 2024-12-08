@@ -29,6 +29,9 @@ function Home() {
         >
           linkedin
         </a>
+        {" "}
+        ·{" "}
+        <a href="" className="underline">resume</a>
       </span>
 
       <h3 className="font-catamaran font-semibold text-3xl mt-16">
