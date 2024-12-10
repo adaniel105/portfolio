@@ -2,17 +2,14 @@ import "./index.css";
 
 function Home() {
   return (
-    <div className="mt-20 max-w-3xl font-sans text-lg">
+    <div className="mt-20 my-10 max-w-3xl font-sans">
       <h5 className="font-extralight">Hi I'm</h5>
       <h1 className="font-catamaran font-semibold text-5xl my-2">
         Daniel Akinola
       </h1>
       <p className="my-4">
-        I'm a 19 y/o software engineering undergrad with a passion for building
-        & scaling software systems, machine learning, databases amongst other
-        things. When I'm not coding, i'm either doing some reading, or trying
-        out a new fps game with friends. I'm always open to exploring new
-        opportunities and learning new things.
+      I'm a software engineering newgrad with a passion for building & scaling performant software systems, machine learning and databases. When I'm not coding, i'm either doing some reading, or trying out some obscure game from the 2000s, or putting my thoughts to paper (or on the internet!). 
+      I'm always open to exploring new opportunities and learning new things.
       </p>
       <span className="my-4">
         <a href="mailto:dakinola18@gmail.com" className="underline">
@@ -47,12 +44,11 @@ function Home() {
       </p>
       <br />
       <a href="" className="font-medium underline">
-        yolo-asl
+        Research Assistant
       </a>
       <p>
         Designed and implemented an American Sign Language fingerspelling
-        classifier as part of a larger project, under supervision of a
-        university professor.
+        classifier as part of a larger research project.
       </p>
 
       <h3 className=" font-catamaran font-semibold text-3xl mt-16">Projects</h3>
@@ -69,6 +65,15 @@ function Home() {
       </p>
       <br />
       <a href="" className="font-medium underline">
+        express-poll
+      </a>
+      <br />
+      <p>
+        Real-time polling application built with Websockets, Typescript and React.
+      </p>
+      <p className="my-2">Tools used: Websockets, Typescript, React, Flowbite</p>
+      <br />
+      <a href="" className="font-medium underline">
         gpt-textgen
       </a>
       <br />
@@ -77,6 +82,19 @@ function Home() {
         decoder-only Transformer, written in Pytorch.
       </p>
       <p className="my-2">Tools used: Pytorch</p>
+
+      <p></p>
+      <br />
+      <a href="" className="font-medium underline">
+        relay.dev
+      </a>
+      <br />
+      <p>
+        A Natural Language Query API for Social Media Analytics using LLMs and Retrieval-Augumented Generation (RAG)
+      </p>
+      <p className="my-2">Tools used: Langchain, FastAPI, React. </p>
+
+      <footer className=" mt-10 opacity-50">made w/♥ by <a href="mailto:dakinola18@gmail.com" className="underline">Akinola Daniel</a></footer>
     </div>
   );
 }
