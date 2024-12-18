@@ -2,7 +2,7 @@ import "./index.css";
 
 function Home() {
   return (
-    <div className="mt-20 my-10 max-w-3xl font-sans">
+    <div className="mt-20 my-10 max-w-3xl font-sans sm: mx-24">
       <h5 className="font-extralight">Hi I'm</h5>
       <h1 className="font-catamaran font-semibold text-5xl my-2">
         Daniel Akinola
@@ -35,7 +35,7 @@ function Home() {
         Work Experience
       </h3>
       <br />
-      <a href="" className="font-medium underline">
+      <a href="https://lagetronix.com/" className="font-medium underline">
         Lagetronix
       </a>
       <p>
@@ -43,7 +43,7 @@ function Home() {
         Elementor, React, Django and MySQL.
       </p>
       <br />
-      <a href="" className="font-medium underline">
+      <a href="https://huggingface.co/spaces/adaniel105/yolo-asl" className="font-medium underline">
         Research Assistant
       </a>
       <p>
@@ -53,7 +53,7 @@ function Home() {
 
       <h3 className=" font-catamaran font-semibold text-3xl mt-16">Projects</h3>
       <br />
-      <a href="" className="font-medium underline">
+      <a href="https://github.com/adaniel105/MovieRec" className="font-medium underline">
         MovieRec
       </a>
       <p>
@@ -64,7 +64,7 @@ function Home() {
         Tools used: Pytorch, scikit-learn, fastapi, Jinja2{" "}
       </p>
       <br />
-      <a href="" className="font-medium underline">
+      <a href="https://github.com/adaniel105/express-poll" className="font-medium underline">
         express-poll
       </a>
       <br />
@@ -73,7 +73,7 @@ function Home() {
       </p>
       <p className="my-2">Tools used: Websockets, Typescript, React, Flowbite</p>
       <br />
-      <a href="" className="font-medium underline">
+      <a href="https://github.com/adaniel105/gpt-textgen" className="font-medium underline">
         gpt-textgen
       </a>
       <br />
@@ -94,7 +94,7 @@ function Home() {
       </p>
       <p className="my-2">Tools used: Langchain, FastAPI, React. </p>
 
-      <footer className=" mt-10 opacity-50">made w/♥ by <a href="mailto:dakinola18@gmail.com" className="underline">Akinola Daniel</a></footer>
+      <footer className=" mt-10 opacity-50 underline">Blogs coming soon1</footer>
     </div>
   );
 }
