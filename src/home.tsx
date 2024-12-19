@@ -2,7 +2,7 @@ import "./index.css";
 
 function Home() {
   return (
-    <div className="mt-20 my-10 max-w-3xl font-sans sm: mx-14">
+    <div className="mt-20 my-10 max-w-3xl font-sans sm: mx-12">
       <h5 className="font-extralight">Hi I'm</h5>
       <h1 className="font-catamaran font-semibold text-5xl my-2">
         Daniel Akinola
