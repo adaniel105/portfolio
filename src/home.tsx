@@ -94,7 +94,7 @@ function Home() {
       </p>
       <p className="my-2">Tools used: Langchain, FastAPI, React. </p>
 
-      <footer className=" mt-10 opacity-50 underline">Blogs coming soon1</footer>
+      <footer className=" mt-10 opacity-50 underline">Blogs coming soon!</footer>
     </div>
   );
 }
